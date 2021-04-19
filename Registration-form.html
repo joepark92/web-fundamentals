@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <h1>Registration Form</h1>
+    <body>
+        <div>
+            <label>First Name: *</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label>Last Name: *</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label>Email Address: *</label>
+            <input type="text" name="email">
+        </div>
+        <div>    
+            <label>Password:* </label>
+            <input type="password" name="password">
+        </div>
+        <div>    
+            <label>Confirm Password:* </label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="dob">
+        </div>
+        <div>
+            <label>Gender Identity: </label>
+                <input type="radio" name="font" value="Male" id="Male">
+                <label for="Male">Male<label>
+                <input type="radio" name="font" value="Female" id="Female">
+                <label for="Female">Female<label>
+                <input type="radio" name="font" value="Non-binary" id="Non-binary">
+                <label for="Non-binary">Non-binary<label>
+                <input type="radio" name="font" value="I prefer not to answer" id="I prefer not to answer">
+                <label for="I prefer not to answer">I prefer not to answer<label>
+        </div>
+        <div>
+            <label>A short description about myself:    </label>
+            <textarea name="comment" cols="30" rows="4"></textarea>
+            <div id="copy-toolbar-container" style="cursor: pointer; position: absolute; top: 5px; right: 5px; padding: 0px 3px; background: rgba(224, 224, 224, 0.2); box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px 0px; color: rgb(187, 187, 187); border-radius: 0.5em; font-size: 0.8em;">
+                <span id="copy-toolbar">copy</span>
+            </div>
+        </div>
+        <div>
+            <label>Favorite Language:   </label>
+            <select name="Language">
+                <option>JavaScript</option>
+                <option>Python</option>
+                <option>C#</option>
+                <option>mern</option>
+                <option>Ruby</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="updates" id="updates">
+            <label for="updates">Yes, I would like to receive periodic email updates<label>
+        </div>
+        <input type="submit" value="Create Account">
+        <p>* Indicates a required field</p>
+    </body>
+</html>
